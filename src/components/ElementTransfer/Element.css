@@ -1,0 +1,54 @@
+.element-transfer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .bucket {
+    
+    padding: 20px;
+    width: 250px;
+    height: 400px;
+    overflow-y: auto;
+    border-radius: 10px;
+    background-color: #007bff;
+  }
+  
+  .bucket-left {
+    margin-right: 20px;
+  }
+  
+  .bucket-right {
+    margin-left: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: rgb(91, 14, 14);
+    border: none;
+    cursor: pointer;
+  }
+  .btns{
+    background-color: green;
+    color: white;
+  }
+  .btns-Remove{
+    background-color: red;
+    color: white;
+  }

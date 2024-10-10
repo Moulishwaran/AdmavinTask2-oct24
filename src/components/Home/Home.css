@@ -1,0 +1,12 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: red;
+}
+
+.element, .nested, .infinite{
+  background-color: grey;
+  color: white;
+  border: none;
+}
